@@ -15,7 +15,50 @@
 		4C572D641E08C79F00BCBD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C572D621E08C79F00BCBD99 /* LaunchScreen.storyboard */; };
 		4C572D6D1E08C94E00BCBD99 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C572D6C1E08C94E00BCBD99 /* KeyboardAvoiding.swift */; };
 		4C572D6F1E08CC6F00BCBD99 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C572D6E1E08CC6F00BCBD99 /* KeyboardDismissingView.swift */; };
+		983E9A1520BA3254005E2897 /* NFKeyboardAvoiding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983E9A0C20BA3253005E2897 /* NFKeyboardAvoiding.framework */; };
+		983E9A1C20BA3254005E2897 /* NFKeyboardAvoidingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983E9A1B20BA3254005E2897 /* NFKeyboardAvoidingTests.swift */; };
+		983E9A1E20BA3254005E2897 /* NFKeyboardAvoiding.h in Headers */ = {isa = PBXBuildFile; fileRef = 983E9A0E20BA3253005E2897 /* NFKeyboardAvoiding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		983E9A2120BA3254005E2897 /* NFKeyboardAvoiding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983E9A0C20BA3253005E2897 /* NFKeyboardAvoiding.framework */; };
+		983E9A2220BA3254005E2897 /* NFKeyboardAvoiding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 983E9A0C20BA3253005E2897 /* NFKeyboardAvoiding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		983E9A1620BA3254005E2897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C572D4E1E08C79E00BCBD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983E9A0B20BA3253005E2897;
+			remoteInfo = NFKeyboardAvoiding;
+		};
+		983E9A1820BA3254005E2897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C572D4E1E08C79E00BCBD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C572D551E08C79F00BCBD99;
+			remoteInfo = KeyboardAvoiding;
+		};
+		983E9A1F20BA3254005E2897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C572D4E1E08C79E00BCBD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983E9A0B20BA3253005E2897;
+			remoteInfo = NFKeyboardAvoiding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		983E9A2820BA3254005E2897 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				983E9A2220BA3254005E2897 /* NFKeyboardAvoiding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4C291DC31E08E01C00507A53 /* IHKeyboardAvoiding.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IHKeyboardAvoiding.podspec; path = ../../IHKeyboardAvoiding.podspec; sourceTree = "<group>"; };
@@ -28,6 +71,12 @@
 		4C572D651E08C79F00BCBD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C572D6C1E08C94E00BCBD99 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAvoiding.swift; sourceTree = "<group>"; };
 		4C572D6E1E08CC6F00BCBD99 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		983E9A0C20BA3253005E2897 /* NFKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983E9A0E20BA3253005E2897 /* NFKeyboardAvoiding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFKeyboardAvoiding.h; sourceTree = "<group>"; };
+		983E9A0F20BA3253005E2897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983E9A1420BA3254005E2897 /* NFKeyboardAvoidingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFKeyboardAvoidingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983E9A1B20BA3254005E2897 /* NFKeyboardAvoidingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFKeyboardAvoidingTests.swift; sourceTree = "<group>"; };
+		983E9A1D20BA3254005E2897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +84,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983E9A2120BA3254005E2897 /* NFKeyboardAvoiding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E9A0820BA3253005E2897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E9A1120BA3254005E2897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983E9A1520BA3254005E2897 /* NFKeyboardAvoiding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				4C572D581E08C79F00BCBD99 /* KeyboardAvoiding */,
+				983E9A0D20BA3253005E2897 /* NFKeyboardAvoiding */,
+				983E9A1A20BA3254005E2897 /* NFKeyboardAvoidingTests */,
 				4C572D571E08C79F00BCBD99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				4C572D561E08C79F00BCBD99 /* KeyboardAvoiding.app */,
+				983E9A0C20BA3253005E2897 /* NFKeyboardAvoiding.framework */,
+				983E9A1420BA3254005E2897 /* NFKeyboardAvoidingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +151,36 @@
 			path = ../../Sources;
 			sourceTree = "<group>";
 		};
+		983E9A0D20BA3253005E2897 /* NFKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				983E9A0E20BA3253005E2897 /* NFKeyboardAvoiding.h */,
+				983E9A0F20BA3253005E2897 /* Info.plist */,
+			);
+			path = NFKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		983E9A1A20BA3254005E2897 /* NFKeyboardAvoidingTests */ = {
+			isa = PBXGroup;
+			children = (
+				983E9A1B20BA3254005E2897 /* NFKeyboardAvoidingTests.swift */,
+				983E9A1D20BA3254005E2897 /* Info.plist */,
+			);
+			path = NFKeyboardAvoidingTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		983E9A0920BA3253005E2897 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983E9A1E20BA3254005E2897 /* NFKeyboardAvoiding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4C572D551E08C79F00BCBD99 /* KeyboardAvoiding */ = {
@@ -92,15 +190,54 @@
 				4C572D521E08C79F00BCBD99 /* Sources */,
 				4C572D531E08C79F00BCBD99 /* Frameworks */,
 				4C572D541E08C79F00BCBD99 /* Resources */,
+				983E9A2820BA3254005E2897 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				983E9A2020BA3254005E2897 /* PBXTargetDependency */,
 			);
 			name = KeyboardAvoiding;
 			productName = KeyboardAvoiding;
 			productReference = 4C572D561E08C79F00BCBD99 /* KeyboardAvoiding.app */;
 			productType = "com.apple.product-type.application";
+		};
+		983E9A0B20BA3253005E2897 /* NFKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983E9A2720BA3254005E2897 /* Build configuration list for PBXNativeTarget "NFKeyboardAvoiding" */;
+			buildPhases = (
+				983E9A0720BA3253005E2897 /* Sources */,
+				983E9A0820BA3253005E2897 /* Frameworks */,
+				983E9A0920BA3253005E2897 /* Headers */,
+				983E9A0A20BA3253005E2897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFKeyboardAvoiding;
+			productName = NFKeyboardAvoiding;
+			productReference = 983E9A0C20BA3253005E2897 /* NFKeyboardAvoiding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		983E9A1320BA3254005E2897 /* NFKeyboardAvoidingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983E9A2920BA3254005E2897 /* Build configuration list for PBXNativeTarget "NFKeyboardAvoidingTests" */;
+			buildPhases = (
+				983E9A1020BA3254005E2897 /* Sources */,
+				983E9A1120BA3254005E2897 /* Frameworks */,
+				983E9A1220BA3254005E2897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983E9A1720BA3254005E2897 /* PBXTargetDependency */,
+				983E9A1920BA3254005E2897 /* PBXTargetDependency */,
+			);
+			name = NFKeyboardAvoidingTests;
+			productName = NFKeyboardAvoidingTests;
+			productReference = 983E9A1420BA3254005E2897 /* NFKeyboardAvoidingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -108,7 +245,7 @@
 		4C572D4E1E08C79E00BCBD99 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = IdleHandsApps;
 				TargetAttributes = {
@@ -117,6 +254,17 @@
 						DevelopmentTeam = 2E23KCX8SU;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+					};
+					983E9A0B20BA3253005E2897 = {
+						CreatedOnToolsVersion = 9.3.1;
+						DevelopmentTeam = 2E23KCX8SU;
+						ProvisioningStyle = Automatic;
+					};
+					983E9A1320BA3254005E2897 = {
+						CreatedOnToolsVersion = 9.3.1;
+						DevelopmentTeam = G94HQ6F4Y9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C572D551E08C79F00BCBD99;
 					};
 				};
 			};
@@ -134,6 +282,8 @@
 			projectRoot = "";
 			targets = (
 				4C572D551E08C79F00BCBD99 /* KeyboardAvoiding */,
+				983E9A0B20BA3253005E2897 /* NFKeyboardAvoiding */,
+				983E9A1320BA3254005E2897 /* NFKeyboardAvoidingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +297,20 @@
 				4C291DC41E08E01C00507A53 /* IHKeyboardAvoiding.podspec in Resources */,
 				4C572D611E08C79F00BCBD99 /* Assets.xcassets in Resources */,
 				4C572D5F1E08C79F00BCBD99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E9A0A20BA3253005E2897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E9A1220BA3254005E2897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +328,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		983E9A0720BA3253005E2897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E9A1020BA3254005E2897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983E9A1C20BA3254005E2897 /* NFKeyboardAvoidingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983E9A1720BA3254005E2897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983E9A0B20BA3253005E2897 /* NFKeyboardAvoiding */;
+			targetProxy = 983E9A1620BA3254005E2897 /* PBXContainerItemProxy */;
+		};
+		983E9A1920BA3254005E2897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C572D551E08C79F00BCBD99 /* KeyboardAvoiding */;
+			targetProxy = 983E9A1820BA3254005E2897 /* PBXContainerItemProxy */;
+		};
+		983E9A2020BA3254005E2897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983E9A0B20BA3253005E2897 /* NFKeyboardAvoiding */;
+			targetProxy = 983E9A1F20BA3254005E2897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C572D5D1E08C79F00BCBD99 /* Main.storyboard */ = {
@@ -283,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2E23KCX8SU;
 				INFOPLIST_FILE = KeyboardAvoiding/Info.plist;
@@ -301,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 2E23KCX8SU;
 				INFOPLIST_FILE = KeyboardAvoiding/Info.plist;
@@ -312,6 +511,148 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		983E9A2320BA3254005E2897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2E23KCX8SU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NFKeyboardAvoiding/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.northernfox.NFKeyboardAvoiding;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		983E9A2420BA3254005E2897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2E23KCX8SU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NFKeyboardAvoiding/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.northernfox.NFKeyboardAvoiding;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		983E9A2520BA3254005E2897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G94HQ6F4Y9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NFKeyboardAvoidingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.northernfox.NFKeyboardAvoidingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardAvoiding.app/KeyboardAvoiding";
+			};
+			name = Debug;
+		};
+		983E9A2620BA3254005E2897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G94HQ6F4Y9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NFKeyboardAvoidingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.northernfox.NFKeyboardAvoidingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardAvoiding.app/KeyboardAvoiding";
 			};
 			name = Release;
 		};
@@ -332,6 +673,24 @@
 			buildConfigurations = (
 				4C572D691E08C79F00BCBD99 /* Debug */,
 				4C572D6A1E08C79F00BCBD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983E9A2720BA3254005E2897 /* Build configuration list for PBXNativeTarget "NFKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983E9A2320BA3254005E2897 /* Debug */,
+				983E9A2420BA3254005E2897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983E9A2920BA3254005E2897 /* Build configuration list for PBXNativeTarget "NFKeyboardAvoidingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983E9A2520BA3254005E2897 /* Debug */,
+				983E9A2620BA3254005E2897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
